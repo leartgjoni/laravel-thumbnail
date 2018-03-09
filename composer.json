@@ -5,10 +5,11 @@
   "authors": [
     {
       "name": "Leart Gjoni",
-      "email": "contact@leartgjoni.com"
+      "email": "contact@leartgjoni.com",
+      "homepage": "http://leartgjoni.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
     "illuminate/support": "^5.5",
