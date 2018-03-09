@@ -26,3 +26,5 @@ thumb function takes 4 parameters:
         b. "resize" - exact resize of image
         c. "background" - fit image perfectly keeping ratio and adding black background
         d. "resizeCanvas" - keep only center
+
+# Don't forget to star this repo ;)
