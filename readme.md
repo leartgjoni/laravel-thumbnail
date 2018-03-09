@@ -1,10 +1,11 @@
 # Laravel Thumbnail
 
-Laravel Package to resize images on the fly with cache functionalities
+Laravel Package to resize images on the fly with cache functionalities. <br/><br/>
+Using Thumbnail facade you will get resized images' paths on the fly. If an image resizing with same dimensions has been already requested before, the package will return the cached image from the previous request. Cached images are stored in "thumbs" folder inside your images root path. 
 
 ## Installation
 
-    1. composer require lersoft/laravel-thumbnail
+    1. composer require lersoft/laravel-thumbnail dev-master
     2. in config/app.php add in providers: Lersoft\LaravelThumbnail\LaravelThumbnailServiceProvider::class
     3. in config/app.php add in aliases: 'Thumbnail' => Lersoft\LaravelThumbnail\Facades\LaravelThumbnail::class
     4. php artisan vendor:publish --tag=config
