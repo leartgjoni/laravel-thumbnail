@@ -4,10 +4,10 @@ Laravel Package to resize images on the fly with cache functionalities
 
 ## Installation
 
-    1. composer required lersoft/laravel-thumbnail
+    1. composer require lersoft/laravel-thumbnail
     2. in config/app.php add in providers: Lersoft\LaravelThumbnail\LaravelThumbnailServiceProvider::class
     3. in config/app.php add in aliases: 'Thumbnail' => Lersoft\LaravelThumbnail\Facades\LaravelThumbnail::class
-    4. php artisan vendor:public --tag=config
+    4. php artisan vendor:publish --tag=config
     
 ## How to use
 
